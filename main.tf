@@ -85,7 +85,7 @@ module "blog_alb" {
       protocol           = "HTTP"
       target_group_index = 0
     }
-  ]
+   ]
 
   tags = {
     Environment = "dev"
